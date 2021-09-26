@@ -52,6 +52,14 @@ spend = [10, 20, 30];
 let communicate: (string | number | boolean)[]; //  Array kiểu union
 communicate = [20, true, "kiểu gì cũng chơi"];
 
+interface TaskInterface {
+  id: number;
+  name: string;
+  age: number;
+}
+
+let task: TaskInterface[];
+
 /**
  *  Lưu ý:
  * - a! với ! là bắt buộc phải có.

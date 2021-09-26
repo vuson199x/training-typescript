@@ -1,5 +1,5 @@
 export interface hasPrint {
-  print(): string; //Những class implement interface này thì bắt buộc phải có hàm print()
+  print(): string;
 }
 
 export interface hasPayment {
@@ -9,3 +9,8 @@ export interface hasPayment {
   printPayment(): string;
   alertPayment(amount: number): number;
 }
+
+/**
+ * Những class implement interface này thì bắt buộc phải định nghĩa lại các hàm có trong interface
+ * 1 class có thể implement nhiều interface
+ */
